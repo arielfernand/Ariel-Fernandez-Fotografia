@@ -1,0 +1,47 @@
+body {
+    background-color: rgb(100, 99, 99);
+    font-family: 'Roboto', sans-serif;
+}
+h1 {
+    text-align: center;
+}
+.logo {
+    width: 100px;
+}
+.fondoHeader {
+    background-color: black;
+    height: 60px;
+    
+}
+
+li a {
+    text-transform: uppercase;
+    font-weight: 700;
+    color: white;
+}
+
+.foto {
+    height: 200px;
+    width: 200px;
+    
+}
+.fotoW {
+    height: 375px;
+    width: 375px;
+}
+.foto:hover{
+    
+    filter: contrast(80%);
+}
+
+.tipoDeLetra {
+    font-weight: bold;
+    font-size: 1rem;
+    text-transform: uppercase;
+    color: white;
+}
+
+.divisor{
+    height: 200px;
+    
+}
