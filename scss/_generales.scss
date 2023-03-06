@@ -1,0 +1,67 @@
+$color_1: white;
+$background-color_1: black;
+
+
+@mixin anclas {
+	text-decoration: none;
+	text-transform: uppercase;
+	font-weight: 700;
+	color: $color_1;
+}
+
+h1 {
+	text-align: center;
+}
+h2 {
+	text-align: center;
+}
+h3 {
+	font-size: 15px;
+}
+
+footer {
+    margin: 20px;
+    padding: 20px;
+    text-align: center;
+    font-size: 10px; 
+    font-weight: bold;
+}
+.logo {
+	width: 100px;
+}
+
+.fondoHeader {
+	background-color: $background-color_1;
+	height: 60px;
+}
+
+li {
+	a {
+		@include anclas;
+	}
+}
+
+.foto {
+	height: 200px;
+	width: 200px;
+
+	&:hover {
+		filter: contrast(80%);
+	}
+}
+
+.fotoW {
+	height: 375px;
+	width: 375px;
+
+	&:hover {
+		filter: contrast(80%);
+	}
+}
+
+.tipoDeLetra {
+	font-weight: bold;
+	font-size: 1rem;
+	text-transform: uppercase;
+	color: $color_1;
+}
